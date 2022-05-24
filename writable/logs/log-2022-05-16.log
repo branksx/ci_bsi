@@ -1,0 +1,79 @@
+CRITICAL - 2022-05-16 17:58:33 --> Unmatched '}'
+#0 C:\xampp\htdocs\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cadastro_usuari...')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cadastro_usuari...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 18:41:37 --> Undefined array key "sl_nivel"
+#0 C:\xampp\htdocs\app\Controllers\cadastro_usuario.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(832): App\Controllers\cadastro_usuario->salvar()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cadastro_usuario))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 18:42:07 --> Undefined array key "sl_nivel"
+#0 C:\xampp\htdocs\app\Controllers\cadastro_usuario.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(832): App\Controllers\cadastro_usuario->salvar()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cadastro_usuario))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 18:42:52 --> Undefined variable $m_c_u
+#0 C:\xampp\htdocs\app\Controllers\cadastro_usuario.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\system\CodeIgniter.php(832): App\Controllers\cadastro_usuario->salvar()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cadastro_usuario))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 18:43:31 --> syntax error, unexpected variable "$m_c_u"
+#0 C:\xampp\htdocs\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cadastro_usuari...')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cadastro_usuari...')
+#2 C:\xampp\htdocs\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 18:43:55 --> Undefined constant "App\Models\id"
+#0 C:\xampp\htdocs\app\Controllers\cadastro_usuario.php(46): App\Models\model_cadastro_usuario->salvar('', 'Bruno', 'baruffi', '123', '1', '2')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(832): App\Controllers\cadastro_usuario->salvar()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cadastro_usuario))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 18:46:16 --> Undefined constant "App\Models\id"
+#0 C:\xampp\htdocs\app\Controllers\cadastro_usuario.php(46): App\Models\model_cadastro_usuario->salvar('', 'Bruno', 'baruffi', '123', '1', '2')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(832): App\Controllers\cadastro_usuario->salvar()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cadastro_usuario))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-16 19:05:39 --> Undefined constant "App\Models\id"
+#0 C:\xampp\htdocs\app\Controllers\cadastro_usuario.php(46): App\Models\model_cadastro_usuario->salvar('', 'Bruno', 'baruffi', '123', '1', '2')
+#1 C:\xampp\htdocs\system\CodeIgniter.php(832): App\Controllers\cadastro_usuario->salvar()
+#2 C:\xampp\htdocs\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cadastro_usuario))
+#3 C:\xampp\htdocs\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-16 19:05:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+CRITICAL - 2022-05-16 19:05:50 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 2
+#0 C:\xampp\htdocs\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE usuario ...', 0)
+#1 C:\xampp\htdocs\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE usuario ...')
+#2 C:\xampp\htdocs\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE usuario ...')
+#3 C:\xampp\htdocs\app\Models\model_cadastro_usuario.php(46): CodeIgniter\Database\BaseConnection->query('UPDATE usuario ...')
+#4 C:\xampp\htdocs\app\Controllers\cadastro_usuario.php(46): App\Models\model_cadastro_usuario->salvar('', 'Bruno', 'baruffi', '123', '1', '2')
+#5 C:\xampp\htdocs\system\CodeIgniter.php(832): App\Controllers\cadastro_usuario->salvar()
+#6 C:\xampp\htdocs\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\cadastro_usuario))
+#7 C:\xampp\htdocs\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-16 22:19:33 --> Error connecting to the database: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+CRITICAL - 2022-05-16 22:19:33 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+#0 C:\xampp\htdocs\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\app\Models\model_login.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM u...')
+#2 C:\xampp\htdocs\app\Controllers\Login.php(20): App\Models\model_login->consultar_login('admin', '123')
+#3 C:\xampp\htdocs\system\CodeIgniter.php(832): App\Controllers\Login->logar()
+#4 C:\xampp\htdocs\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
