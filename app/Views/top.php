@@ -27,13 +27,16 @@
        -->
     </ul>
     <li class="nav-item dropdown">
-    <a class="navbar-brand" href="#"role="button" data-bs-toggle="dropdown" aria-expanded="false">Bem vindo, <?php echo $_SESSION["WYV_SA"]["Nome"]; ?></a>
+    <a class="navbar-brand dropdown-toggle" href="#" role="button" 
+      data-bs-toggle="dropdown" aria-expanded="false">Bem vindo, <?php echo $_SESSION["WYV_SA"]["Nome"]; ?></a>
           <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-            <li><a class="dropdown-item" href="#">Alterar Senha</a></li>
+            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modal_alterar_senha">Alterar Senha</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Sair</a></li>
+            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#modal_logout">Sair</a></li>
           </ul>
         </li>
     </div>
   </div>
 </nav>
+
+<?php echo view('modal_comum');?>
