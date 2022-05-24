@@ -32,7 +32,7 @@ class model_login extends Model
 			}
 		}else{
 			if($ret[0]["Senha"] == $senhaAntiga){
-				$sql = "UPDATE agenda SET Senha = $senhaNova"
+				$sql = "UPDATE agenda SET Senha = $senhaNova";
 			}
 			return false;
 		}
